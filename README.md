@@ -46,7 +46,7 @@ dataset/
     └── ... image files referenced by those CSVs ...
 ```
 
-The CSV entries should resolve from the project-level `dataset/` directory (for example, `MURA-v1.1/...`). The dataset is not included in this repository; obtain it from its original source and follow its terms of use.
+The CSV entries should resolve from the project-level `dataset/` directory (for example, `MURA-v1.1/...`). The dataset is not included in this repository. Download it from the official [Stanford AIMI MURA dataset page](https://aimi.stanford.edu/datasets/mura-msk-xrays), which links to the dataset download on Redivis. Follow Stanford's current access steps and data-use terms. See the [original MURA project page](https://stanfordmlgroup.github.io/competitions/mura/) for dataset background. After downloading, arrange the files to match the folder layout above.
 
 ## Train
 
