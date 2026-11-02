@@ -1,0 +1,33 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environments (including the project's TensorFlow environment)
+.venv/
+venv/
+env/
+tf210/
+
+# Large dataset (backed up separately)
+dataset/
+
+# Trained models and checkpoints
+models/
+*.keras
+*.h5
+
+# Generated results, logs, plots, and predictions
+outputs/
+results/
+logs/
+*.log
+
+# Notebook and editor state
+.ipynb_checkpoints/
+.vscode/
+
+# Operating system files
+Thumbs.db
+.DS_Store
+desktop.ini
